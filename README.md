@@ -32,3 +32,8 @@ Before submitting your final results, double or even triple-check everything:
 - Jito’s senior developer will thoroughly review your solution. Based on this review, if deemed appropriate, you may be invited for a technical code review. This will include questions about the code, your understanding, and the reasoning behind your solution choices.
 - The best indicator that you’ve done your best is the feeling of confidence when submitting, knowing that you have thoroughly checked your work and cannot think of anything more to improve.
 - You can view test task template [here](https://jito-dev.github.io/jito-intern-test-task/)
+
+
+## Limitations
+
+Optional end tags are not implied. A `<li>` does not close a previous `<li>`, and an `<h1>` does not close an open `<p>`. The same applies to `td`, `th`, and `option`. In these cases the tree differs from the tree a browser would build. The parser records the issue in `errors` and does not throw.
